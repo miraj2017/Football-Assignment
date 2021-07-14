@@ -264,7 +264,7 @@ footer{
 
 }
 header{
-    width: 100%;
+   
     background-color:#2D25A0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -370,17 +370,11 @@ header{
 
 
 
-.section-2,.section-3,footer{
-    display: none;
-}
-
 
 /* SECTION-2 STARTS----------------------------------- */
 
-/* 
  
 .section-2{
-    width: 100%;
     background-color: whitesmoke;
     padding: 150px;
 }
@@ -390,21 +384,22 @@ header{
 }
 .copa-finalist{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .country{
     width: 35%;
-    margin: 50px;
+    margin: 30px;
 }
 .flag{
    width: 60%;
 }
 .flag img{
-   height: 250px;
-   width: 450px;
+   height: 150px;
+   width: 250px;
 }
 .flag-text h2{
-    margin-top: 20px;
+    margin-top: 5px;
 }
  
 
@@ -412,7 +407,9 @@ header{
  
 
 
- */
+ .section-3,footer{
+    display: none;
+}
 
 
 }
