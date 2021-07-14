@@ -19,6 +19,8 @@ header{
      padding-right: 102px;
 
  }
+
+ 
  .header-left h1{
      width: 485px;
      font-size: 64px;
@@ -34,7 +36,25 @@ header{
      margin-top: 27px;
      margin-bottom: 169px;
      padding: 10px 24px;
+     background:linear-gradient(to right ,rgb(216, 152, 160),orange);
+     width: 168px;
+     height:44px ;
+     border: none;
+     border-radius: 20px;
+     transition:width 0.3s;
  }
+ .header-button:hover{
+     width: 250px;
+     background: red;
+ }
+.header-button i{
+    margin-left: 7px;
+}
+.header-button a{
+    text-decoration: none;
+    color: white;
+}
+
  .header-right{
      margin-top: 153px;
  } 
@@ -93,6 +113,77 @@ header{
 
 
 
+.section-2{
+    background-color: whitesmoke;
+    padding: 150px;
+}
+.section-2 h2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.copa-finalist{
+    display: flex;
+    justify-content: center;
+}
+.country{
+    width: 35%;
+    margin: 50px;
+}
+.flag{
+   width: 60%;
+}
+.flag img{
+   height: 250px;
+   width: 450px;
+}
+.flag-text h2{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.section-3{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top:150px;
+    box-shadow: 1px 1px 50px whitesmoke;
+    padding: 50px;
+    border-radius: 10px;
+}
+.section-3 h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-3 p{}
+.section-3-form{}
+.section-3-form input[type="submit"]{
+    margin-top: 30px;
+    padding:10px 30px;
+    background:linear-gradient(to right ,rgb(216, 152, 160),orange);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,13 +213,29 @@ footer{
 }
 
 .footer-text{
-    margin: 20px 0px;
+    
     width: 170px;
-    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    margin:0 auto; 
 }
-.footer-text i{
+.footer-icon{
+    width:32px;
+    height: 32px;
+    background-color:rgba(139, 33, 33, 0.199);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text a{
     font-size: 20px;
     padding: 5px;
+    text-decoration: none;
+    margin: 0;
+    color: black;
+  
 
 }
 
@@ -140,4 +247,51 @@ footer{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+}
+
+
+
+
+
+/* -------------------MEDIA QUERY STARTS HERE--------------- */
+
+@media  only screen and (max-width:576px) {
+header{
+
+    background-color:#2D25A0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+} 
+.players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px 0px;
+ 
+}
+
+
+footer{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+ }
+ 
+ .footer-text{
+    margin: 20px 0px;
+    width: 150px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
