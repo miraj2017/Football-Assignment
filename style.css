@@ -76,6 +76,7 @@ header{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     grid-gap: 27px 30px;
     margin-left:180px ;
     margin-right: 210px;
@@ -325,7 +326,7 @@ header{
 
 .section-1{
     margin-top: 47px;
-    width: 100%;
+  
     
 }
  
