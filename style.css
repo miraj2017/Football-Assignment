@@ -55,6 +55,7 @@ header{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px 30px;
     margin-left:180px ;
     margin-right: 210px;
     margin-top: 70px;
@@ -102,6 +103,14 @@ header{
 
 
 
+
+
+/*------------- Footer Starts Here-------------- */
+
+
+
+
+
 footer{
    width: 484px;
    margin: 0 auto;
@@ -113,6 +122,7 @@ footer{
 }
 
 .footer-text{
+    margin: 20px 0px;
     width: 170px;
     margin:0 auto;
 }
@@ -129,4 +139,5 @@ footer{
 .copyright p{
     font-size: 18px;
     font-weight: 400;
+    line-height: 24px;
 }
