@@ -256,38 +256,113 @@ footer{
 /* -------------------MEDIA QUERY STARTS HERE--------------- */
 
 @media  only screen and (max-width:576px) {
+ body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
 header{
-
     background-color:#2D25A0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+}
+
+.header-left{
+    padding-left: 16px;
+    padding-top: 112px;
+    padding-right: 70px;
+
+}
+ 
+.header-left h1{
+    width: 274px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    
+}
+.header-button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 173px;
+    padding: 10px 24px;
+    background:linear-gradient(to right ,rgb(216, 152, 160),orange);
+    width: 168px;
+    height:44px ;
+    border: none;
+    border-radius: 20px;
+ 
+}
+
+.header-button i{
+   margin-left: 8px;
+}
+.header-button a{
+   text-decoration: none;
+   color: white;
+}
+
+.header-right{
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-top: 50px;
+    margin-bottom: 62px;
 } 
+.header-right img{
+  
+  width: 329px;
+  height: 260px;
+
+}
+
+
+
+
+
+.section-1{
+    margin-top: 47px;
+}
+ 
 .players{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 20px 0px;
- 
+    grid-gap: 24px 0px;
+    margin-left:15px ;
+    margin-right: 15px;
+    margin-top: 47px;
+    margin-bottom: 165px;
 }
 
-
-footer{
-    width: 200px;
-    margin: 0 auto;
-    margin-bottom: 63px;
- }
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 1px 1px 30px whitesmoke;
  
- .footer-text{
-    margin: 20px 0px;
-    width: 150px;
-    margin: 0 auto;
-    margin-left: 20px;
+}
+.player-image{
+    width: 300px;
+ 
+  
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
 }
 
-
-
-
-
-
+.player-text{
+    width: 300PX;
+    height: 154px;
+}
+.player-text h3{
+    margin-block-start: 0PX;
+    margin-inline-end: 0PX;
+    margin-block-end: 0px;
+    font-weight: 0;
+}
 
 
 
