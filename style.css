@@ -67,6 +67,8 @@ header{
 
 /* ---------------------------header-area Ends-------------------------- */
 
+
+
 /* ------------------------MAIN AREA STARTS HERE */
 
 .section-1{
@@ -178,18 +180,6 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------MAIN AREA ENDS HERE-------------------- */
 
 
@@ -199,10 +189,6 @@ header{
 
 
 /*------------- Footer Starts Here-------------- */
-
-
-
-
 
 footer{
    width: 484px;
@@ -251,18 +237,14 @@ footer{
     line-height: 24px;
 }
 
-
+/* -------------FOOTER AREA ENDS--------------------------- */
 
 
 
 /* -------------------MEDIA QUERY STARTS HERE--------------- */
 
 @media  only screen and (max-width:576px) {
- body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
 
-}
 header{
    width: 100%;
     background-color:#2D25A0;
@@ -322,8 +304,8 @@ header{
 }
 
 
-/* Section-1 Starts---------------------------- */
-
+/* ---------------MAIN AREA STARTS---------------------------- */
+/* 
 .section-1{
     margin-top: 47px;
   
@@ -371,7 +353,7 @@ header{
 
 
 
-/* SECTION-2 STARTS----------------------------------- */
+
 
  
 .section-2{
@@ -404,9 +386,6 @@ header{
  
 
 
- /* -----------SECTION-3 STARTS-------------------- */
-
-
 
  .section-3{
     width: 45%;
@@ -430,10 +409,13 @@ header{
     border-radius: 20px;
     font-size: 20px;
 
-}
+} */
 
 
-/* --------------FOOTER Starts here------------ */
+/* ----------------------MAIN AREA ENDS HERE */
+
+
+/* --------------FOOTER STARTS HERE------------------ */
 
 
 
