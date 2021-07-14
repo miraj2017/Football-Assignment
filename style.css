@@ -364,18 +364,21 @@ header{
 .copa-finalist{
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
    
 }
 .country{
     width: 35%;
+ 
+    margin-right: 100px;
     
 }
 .flag{
-   width: 60%;
+   width: 30%;
 }
 .flag img{
-   height: 150px;
-   width: 250px;
+  
+   width: 100%;
 }
 .flag-text h2{
     margin-top: 5px;
@@ -383,10 +386,11 @@ header{
  
 
 
-/* 
+
+
  .section-3{
     width: 45%;
-    margin: 0 auto;
+    margin-left: 0 auto;
     margin-bottom: 200px;
     margin-top:150px;
     box-shadow: 1px 1px 50px whitesmoke;
@@ -406,7 +410,7 @@ header{
     border-radius: 20px;
     font-size: 20px;
 
-}  */
+}  
 
 
 /* ----------------------MAIN AREA ENDS HERE */
