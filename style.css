@@ -324,9 +324,6 @@ header{
 
 /* Section-1 Starts---------------------------- */
 
-main,footer{
-    width: 100%;
-}
 .section-1{
     margin-top: 47px;
   
@@ -379,7 +376,7 @@ main,footer{
  
 .section-2{
     background-color: whitesmoke;
-    /* padding: 150px; */
+    
 }
 .section-2 h2{
     text-align: center;
@@ -407,7 +404,85 @@ main,footer{
  
 
 
+ /* -----------SECTION-3 STARTS-------------------- */
+
+
+
+ .section-3{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top:150px;
+    box-shadow: 1px 1px 50px whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section-3 h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-3-form input[type="submit"]{
+    margin-top: 30px;
+    padding:10px 20px;
+    background:linear-gradient(to right ,rgb(216, 152, 160),orange);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+
+/* --------------FOOTER STARTS HERE------------------ */
+
+
+
+footer{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+ }
  
+ .footer-image img{
+     width: 300px;
+ }
+ 
+ .footer-text{
+     
+     width: 170px;
+     display: flex;
+     justify-content: space-between;
+ 
+     margin:0 auto; 
+ }
+ .footer-icon{
+     width:15px;
+     height: 15px;
+     background-color:rgba(139, 33, 33, 0.199);
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .footer-text a{
+     font-size: 20px;
+     padding: 5px;
+     text-decoration: none;
+     margin: 0;
+     color: black;
+   
+ 
+ }
+ 
+ .copyright{
+     width: 236px;
+     margin: 0 auto;
+ }
+ .copyright p{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+ }
 
 
 
