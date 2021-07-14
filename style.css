@@ -376,7 +376,7 @@ header{
  
 .section-2{
     background-color: whitesmoke;
-    padding: 150px;
+    /* padding: 150px; */
 }
 .section-2 h2{
     text-align: center;
@@ -385,11 +385,11 @@ header{
 .copa-finalist{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
 }
 .country{
     width: 35%;
-    margin: 30px;
+    
 }
 .flag{
    width: 60%;
